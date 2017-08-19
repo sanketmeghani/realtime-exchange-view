@@ -1,0 +1,29 @@
+{
+  "name": "realtime-exchange-view",
+  "version": "1.0.0",
+  "description": "Front end for real time, multi user, multi channel collaboration",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sanketmeghani/realtime-exchange-view.git"
+  },
+  "keywords": [
+    "realtime",
+    "collaboration",
+    "multiuser",
+    "multichannel"
+  ],
+  "author": "Sanket Meghani",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sanketmeghani/realtime-exchange-view/issues"
+  },
+  "homepage": "https://github.com/sanketmeghani/realtime-exchange-view#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "eslint": "^4.5.0"
+  }
+}
