@@ -22,7 +22,9 @@
     "url": "https://github.com/sanketmeghani/realtime-exchange-view/issues"
   },
   "homepage": "https://github.com/sanketmeghani/realtime-exchange-view#readme",
-  "dependencies": {},
+  "dependencies": {
+    "dotenv": "^4.0.0"
+  },
   "devDependencies": {
     "eslint": "^4.5.0"
   }
