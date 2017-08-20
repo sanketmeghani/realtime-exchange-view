@@ -9,8 +9,6 @@ import { devMiddleware, hotMiddleware } from 'koa-webpack-middleware';
 
 import config from '../webpack.config.dev';
 
-/* eslint-disable no-console */
-
 dotenv.config();
 
 const debugLog = debug('app:debug');
