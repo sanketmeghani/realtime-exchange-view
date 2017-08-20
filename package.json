@@ -4,6 +4,8 @@
   "description": "Front end for real time, multi user, multi channel collaboration",
   "main": "index.js",
   "scripts": {
+    "lint": "esw --ext .js --ext .jsx webpack.config.* src tools test",
+    "lint:watch": "npm run lint -- --watch",
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "npm run start:dev",
     "start:dev": "cross-env DEBUG=app:* babel-node tools/devServer.js"

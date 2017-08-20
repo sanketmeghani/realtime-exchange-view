@@ -1,0 +1,39 @@
+# Enforce Unix newlines
+*.*           text eol=lf
+*.css         text eol=lf
+*.html        text eol=lf
+*.htm         text eol=lf
+*.jsx         text eol=lf
+*.mustache    text eol=lf
+*.hbs         text eol=lf
+*.handlebars  text eol=lf
+.phtml        text eol=lf
+.erb          text eol=lf
+.eco          text eol=lf
+.djhtml       text eol=lf
+*.scss        text eol=lf
+*.sass        text eol=lf
+*.less        text eol=lf
+*.styl        text eol=lf
+*.org         text eol=lf
+*.apib        text eol=lf
+*.js          text eol=lf
+*.json        text eol=lf
+*.less        text eol=lf
+*.md          text eol=lf
+*.yml         text eol=lf
+*.svg         text eol=lf
+
+*.jpeg        binary
+*.jpg         binary
+*.gif         binary
+*.png         binary
+
+*.otf         binary
+*.eot         binary
+*.ttf         binary
+*.woff        binary
+*.woff2       binary
+
+# ProTip: Files that can change in random order
+CHANGELOG.md  merge=union
