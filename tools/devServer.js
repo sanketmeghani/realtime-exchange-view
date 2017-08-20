@@ -49,6 +49,6 @@ app.listen(port, (err) => {
   if (err) {
     errorLog(err);
   } else {
-    infoLog(`visit: http://localhost:${port}`);
+    infoLog(`Server started on: http://localhost:${port}`);
   }
 });

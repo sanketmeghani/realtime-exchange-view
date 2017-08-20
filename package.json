@@ -30,10 +30,8 @@
     "cross-env": "^5.0.5",
     "debug": "^3.0.0",
     "dotenv": "^4.0.0",
-    "eventsource-polyfill": "^0.9.6",
     "koa": "^2.3.0",
     "koa-static": "^4.0.1",
-    "koa-webpack-middleware": "^1.0.7",
     "react": "^15.6.1",
     "react-dom": "^15.6.1",
     "webpack": "^3.5.5"
@@ -44,6 +42,7 @@
     "babel-loader": "^7.1.2",
     "babel-preset-env": "^1.6.0",
     "babel-preset-react": "^6.24.1",
+    "css-loader": "^0.28.5",
     "eslint": "^4.5.0",
     "eslint-config-airbnb": "^15.1.0",
     "eslint-plugin-import": "^2.7.0",
@@ -51,6 +50,11 @@
     "eslint-plugin-promise": "^3.5.0",
     "eslint-plugin-react": "^7.2.1",
     "eslint-plugin-standard": "^3.0.1",
-    "eslint-watch": "^3.1.2"
+    "eslint-watch": "^3.1.2",
+    "eventsource-polyfill": "^0.9.6",
+    "file-loader": "^0.11.2",
+    "json-loader": "^0.5.7",
+    "koa-webpack-middleware": "^1.0.7",
+    "style-loader": "^0.18.2"
   }
 }
