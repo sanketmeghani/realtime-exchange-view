@@ -1,0 +1,19 @@
+{
+  "html": {
+    "indent_char": " ",
+    "indent_size": 2,
+    "max_preserve_newlines": 1
+  },
+  "js": {
+    "e4x": true,
+    "indent_char": " ",
+    "indent_size": 2,
+    "max_preserve_newlines": 2,
+    "allowed_file_extensions": ["js", "json", "jsbeautifyrc", "jsx", "babelrc", "npmrc", "eslintrc", "nycrc"],
+    "brace_style": "collapse,preserve-inline"
+  },
+  "css": {
+    "indent_size": 2,
+    "allowed_file_extensions": ["css", "scss", "sass", "less"]
+  }
+}
